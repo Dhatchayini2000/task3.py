@@ -1,0 +1,44 @@
+QUESTION 1
+Merge two dictionaries
+
+pen={'blue':2,'black':4}
+color_pencil={'pink':4,'orange':5}
+pen.update(color_pencil)
+print(pen)
+
+QUESTION 2
+Remove a key from dictionary
+
+pen={'blue':2,'black':3,'red':6};
+print("initial dictionary")
+print(pen)
+key=input("Enter the key to delete(blue-red):")
+if key in pen:
+    del pen[key]
+else:
+    print("Key not found!")
+    exit(0)
+print("Updated dictionary")
+print(pen)
+
+QUESTION 3
+Map two lists in dictionary
+
+lista={'pen','pencil'};
+listb={'3','5'};
+list=dict(zip(lista,listb));
+print(list);
+
+QUESTION 4
+The length of a set
+
+a={1,2,3,4,5};
+print(len(a));
+
+QUESTION 5
+Remove intersection from 2nd set from 1st set
+
+a={1,2,3,4,5};
+b={2,4,5,6,7};
+print("Remove the intersection of a 2nd set from the 1st set using -= operator:");
+print(a-b);
